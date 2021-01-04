@@ -1,7 +1,8 @@
 # job-test
 Program that update the tables as needed, show the user a preview of their data before updating.
-
-									=====SETUP=====
+					=====SETUP=====
+# Generate a new Application key
+php artisan key:generate
 
 # Migration and DB seeder (after changing your DB settings in .env)
 php artisan migrate --seed
