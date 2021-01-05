@@ -142,6 +142,10 @@ class UserController extends BaseController
                 return response()->json(['error' => 'Email has been taken'], 403);
             }
 
+            if(!$account){
+                return response()->json(['errors' => 'Account Number not available!'], 403);
+            }
+
             $user->name = $request->get('name');
             $user->account_no = $request->get('account_no');
             $user->account_type = $request->get('account_type');
