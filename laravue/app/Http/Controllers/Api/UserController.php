@@ -141,6 +141,10 @@ class UserController extends BaseController
             if ($found && $found->id !== $user->id) {
                 return response()->json(['error' => 'Email has been taken'], 403);
             }
+            
+            if(!$account){
+                return response()->json(['errors' => 'Account Number is not available!'], 403);
+            }
 
             if(!$account){
                 return response()->json(['errors' => 'Account Number not available!'], 403);
