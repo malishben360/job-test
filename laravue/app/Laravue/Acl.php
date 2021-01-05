@@ -22,7 +22,7 @@ final class Acl
     const ROLE_MANAGER = 'manager';
     const ROLE_EDITOR = 'editor';
     const ROLE_USER = 'user';
-    const ROLE_VISITOR = 'visitor';
+    const ROLE_VISITOR = 'client';
 
     const PERMISSION_VIEW_MENU_ELEMENT_UI = 'view menu element ui';
     const PERMISSION_VIEW_MENU_PERMISSION = 'view menu permission';
