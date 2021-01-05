@@ -65,7 +65,7 @@ export default {
     };
     return {
       loginForm: {
-        email: 'admin@laravue.dev',
+        email: 'visitor@laravue.dev',
         password: 'laravue',
       },
       loginRules: {

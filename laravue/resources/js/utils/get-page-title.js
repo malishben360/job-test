@@ -1,7 +1,7 @@
 import defaultSettings from '@/settings';
 import i18n from '@/lang';
 
-const title = defaultSettings.title || 'Laravel Vue Admin';
+const title = defaultSettings.title || 'GTM Bank';
 
 export default function getPageTitle(key) {
   const hasKey = i18n.te(`route.${key}`);
