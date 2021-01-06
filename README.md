@@ -3,10 +3,12 @@ Program that update the tables as needed, show the user a preview of their data 
 					=====SETUP=====
 # Install dependency
 npm install
+
 npm install axios@0.21.1
 
 # Generate a new Application key
 composer install
+
 php artisan key:generate
 
 # Migration and DB seeder (after changing your DB settings in .env)
